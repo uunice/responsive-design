@@ -1,0 +1,281 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-list {
+    overflow: hidden;
+    background-color: rgb(151, 196, 246);
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding:1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(96, 136, 183);
+}
+
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.banner{
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+
+body {
+    background-image: url("hkdisneyland_1920x1080.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-shrink: 3;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    text-align:center;
+    font-style: italic;
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+h4{
+    color: black;
+    text-align: left;
+}
+
+h5{
+    color: black;
+    text-align: center;
+}
+
+p{
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+.box2{
+    display: flex;
+    min-height: 300px;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-shrink: 3;
+}
+
+.box2-items{
+    margin: 1.5rem;
+}
+
+.introduction{
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 5rem 0rem 5rem;
+    padding: 5rem;
+    border-radius: 30px;
+}
+
+.myfavoritecharacters{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    margin: 0rem 5rem 5rem;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.image2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 3;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-shrink: 3;
+}
+
+.lottiefile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg{
+    background-color: white;
+    margin: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: white;
+    gap: 60px 60px;
+    margin: auto;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+}
+
+.olumei{
+    margin: 20px;
+}
+
+.duffy{
+    margin: 20px;
+}
+
+.cookieann{
+    margin: 20px;
+}
+
+.stellalou{
+    margin: 20px;
+}
+
+.gelatoni{
+    margin: 20px;
+    grid-column: 2 / 4;
+    justify-content: flex-start;
+}
+
+
+.duffymay{
+    grid-column: 1 / 4;
+    margin: 20px;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+
+    .nav-item:first-child{
+        margin-right: auto;
+        margin-left: 1rem;
+    }
+
+
+    .nav-item{
+        list-style: none;
+        margin-right: 1rem;
+        font-size: 0.6rem;
+    }
+
+
+.banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+
+.introduction{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 30px;
+    }
+
+.myfavoritecharacters{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    }
+    
+h2{
+    color: white;
+    text-align:center;
+    font-style: italic;
+    font-size: 30px;
+    }
+    
+h3{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 28px;
+    }
+    
+h4{
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    }
+    
+h5{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    }
+    
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    }
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+}
